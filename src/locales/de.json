@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "name": "Deutsch",
+    "flag": "🇩🇪",
+    "dir": "ltr"
+  },
+  "menu": {
+    "file": "Datei",
+    "network": "Netzwerk",
+    "view": "Ansicht",
+    "window": "Fenster",
+    "help": "Hilfe",
+    "connect": "Mit Server verbinden…",
+    "addServer": "Server hinzufügen…",
+    "joinChannel": "Channel betreten…",
+    "dcc": "DCC-Transfers…",
+    "prefs": "Einstellungen…",
+    "exit": "Beenden",
+    "tile": "Fenster anordnen",
+    "cascade": "Fenster kaskadieren",
+    "toolbar": "Symbolleiste",
+    "statusbar": "Statusleiste",
+    "servertree": "Serverbaum",
+    "about": "Über bIRC…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "Verbinden",
+    "disconnect": "Trennen",
+    "addServer": "Server hinzufügen",
+    "join": "Betreten",
+    "part": "Verlassen",
+    "dcc": "DCC",
+    "prefs": "Einstellungen",
+    "tile": "Anordnen",
+    "cascade": "Kaskade"
+  },
+  "tree": {
+    "status": "{name} (Status)",
+    "channelList": "Channelliste"
+  },
+  "input": {
+    "placeholder": "Nachricht an {channel}…",
+    "placeholderStatus": "Befehl eingeben… (/list, /join #channel)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "Server hinzufügen",
+      "name": "Bezeichnung",
+      "host": "Server",
+      "port": "Port",
+      "ssl": "SSL/TLS verwenden",
+      "password": "Serverpasswort",
+      "nick": "Nickname",
+      "nickAlt": "Alt. Nickname",
+      "realname": "Realname",
+      "username": "Benutzername",
+      "autojoin": "Channels automatisch betreten",
+      "add": "Hinzufügen",
+      "addConnect": "Hinzufügen & Verbinden",
+      "cancel": "Abbrechen"
+    },
+    "join": {
+      "title": "Channel betreten",
+      "channel": "Channel",
+      "key": "Schlüssel (optional)",
+      "join": "Betreten",
+      "cancel": "Abbrechen"
+    },
+    "prefs": {
+      "title": "Einstellungen",
+      "identity": "Identität",
+      "appearance": "Aussehen",
+      "timestamps": "Zeitstempel",
+      "notifications": "Benachrichtigungen",
+      "logging": "Protokollierung",
+      "dcc": "DCC",
+      "nick": "Nickname",
+      "nickAlt": "Alt. Nickname",
+      "realname": "Realname",
+      "username": "Benutzername",
+      "font": "Schriftart",
+      "fontSize": "Schriftgröße",
+      "language": "Sprache",
+      "theme": "Design",
+      "coloredNicks": "Farbige Nicknamen",
+      "showTimestamp": "Zeitstempel anzeigen",
+      "tsFormat": "Zeitstempelformat",
+      "dateFormat": "Datumsformat",
+      "notifyMention": "Bei Erwähnung benachrichtigen",
+      "notifyDM": "Bei Direktnachricht benachrichtigen",
+      "notifyJoin": "Bei Beitritt benachrichtigen",
+      "notifySound": "Ton bei Benachrichtigung",
+      "highlights": "Hervorhebungswörter",
+      "logEnabled": "Protokollierung aktivieren",
+      "logDir": "Protokollverzeichnis",
+      "dccDir": "DCC-Downloadordner",
+      "dccAutoAccept": "DCC automatisch annehmen",
+      "save": "Speichern",
+      "cancel": "Abbrechen"
+    },
+    "about": {
+      "title": "Über bIRC",
+      "version": "Version",
+      "license": "MIT-Lizenz",
+      "desc": "Ein klassischer IRC-Client, gebaut mit Electron + Vue 3"
+    }
+  },
+  "status": {
+    "connecting": "*** Verbinde mit {host} ({port}){ssl}…",
+    "connected": "*** Verbunden. Anmeldung läuft…",
+    "disconnected": "*** Verbindung zu {host} getrennt",
+    "registered": "*** Angemeldet als {nick}",
+    "error": "*** Fehler: {msg}",
+    "ssl": " über SSL"
+  },
+  "msg": {
+    "joined": "{nick} hat {channel} betreten",
+    "left": "{nick} hat {channel} verlassen",
+    "quit": "{nick} hat das Netz verlassen",
+    "kicked": "{nick} wurde von {by} gekickt",
+    "nickChange": "{old} heißt jetzt {new}",
+    "topicChange": "{nick} hat das Thema geändert: {topic}",
+    "modeChange": "Modus {modes} von {nick}",
+    "nowTalking": "Du sprichst jetzt in {channel}"
+  },
+  "ctx": {
+    "query": "Query (DM)",
+    "whois": "WHOIS",
+    "mention": "Mention",
+    "dcc": "DCC Send file",
+    "op": "Op vergeben",
+    "deop": "Op entziehen",
+    "voice": "Voice vergeben",
+    "kick": "Kick",
+    "ban": "Kickban",
+    "focus": "In Vordergrund",
+    "restore": "Wiederherstellen",
+    "leave": "Leave / Part",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "joinChannel": "Join Channel…",
+    "editServer": "Einstellungen",
+    "deleteServer": "Delete Server"
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            width: 400px;
+            height: 300px;
+            background: #1a1a2e;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+            border-radius: 8px;
+            overflow: hidden;
+            font-family: 'Consolas', monospace;
+        }
+
+        img {
+            width: 160px;
+            height: 160px;
+            object-fit: contain;
+        }
+
+        .label {
+            color: #888;
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .bar-wrap {
+            width: 280px;
+            height: 6px;
+            background: #2a2a3e;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .bar {
+            height: 100%;
+            width: 30%;
+            background: linear-gradient(90deg, #388bfd, #3fb950);
+            border-radius: 3px;
+            animation: slide 1.2s ease-in-out infinite;
+        }
+
+        @keyframes slide {
+            0%   { transform: translateX(-100%) }
+            100% { transform: translateX(400%) }
+        }
+    </style>
+</head>
+<body>
+<!-- 👀 -->
+<!--<img src="./animation.gif" alt="bIRC" />-->
+<div class="label">bIRC wird geladen…</div>
+<div class="bar-wrap">
+    <div class="bar"></div>
+</div>
+</body>
+</html>

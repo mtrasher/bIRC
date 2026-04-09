@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "name": "Українська",
+    "flag": "🇺🇦",
+    "dir": "ltr"
+  },
+  "menu": {
+    "file": "Файл",
+    "network": "Мережа",
+    "view": "Вигляд",
+    "window": "Вікно",
+    "help": "Довідка",
+    "connect": "Підключитися…",
+    "addServer": "Додати сервер…",
+    "joinChannel": "Увійти до каналу…",
+    "dcc": "Передачі DCC…",
+    "prefs": "Параметри…",
+    "exit": "Вихід",
+    "tile": "Мозаїка",
+    "cascade": "Каскад",
+    "toolbar": "Панель інструментів",
+    "statusbar": "Рядок стану",
+    "servertree": "Дерево серверів",
+    "about": "Про bIRC…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "Підключити",
+    "disconnect": "Відключити",
+    "addServer": "Додати сервер",
+    "join": "Увійти",
+    "part": "Вийти",
+    "dcc": "DCC",
+    "prefs": "Параметри",
+    "tile": "Мозаїка",
+    "cascade": "Каскад"
+  },
+  "tree": {
+    "status": "{name} (статус)",
+    "channelList": "Список каналів"
+  },
+  "input": {
+    "placeholder": "Повідомлення в {channel}…",
+    "placeholderStatus": "Введіть команду… (/list, /join #канал)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "Додати сервер",
+      "name": "Мітка",
+      "host": "Хост",
+      "port": "Порт",
+      "ssl": "Використовувати SSL/TLS",
+      "password": "Пароль сервера",
+      "nick": "Нік",
+      "nickAlt": "Альт. нік",
+      "realname": "Справжнє імя",
+      "username": "Імя користувача",
+      "autojoin": "Автовхід до каналів",
+      "add": "Додати",
+      "addConnect": "Додати і підключити",
+      "cancel": "Скасувати"
+    },
+    "join": {
+      "title": "Увійти до каналу",
+      "channel": "Канал",
+      "key": "Ключ (необовязково)",
+      "join": "Увійти",
+      "cancel": "Скасувати"
+    },
+    "prefs": {
+      "title": "Параметри",
+      "identity": "Особисті дані",
+      "appearance": "Зовнішній вигляд",
+      "timestamps": "Позначки часу",
+      "notifications": "Сповіщення",
+      "logging": "Журналювання",
+      "dcc": "DCC",
+      "nick": "Нік",
+      "nickAlt": "Альт. нік",
+      "realname": "Справжнє імя",
+      "username": "Імя користувача",
+      "font": "Шрифт",
+      "fontSize": "Розмір шрифту",
+      "language": "Мова",
+      "theme": "Тема",
+      "coloredNicks": "Кольорові ніки",
+      "showTimestamp": "Показувати позначки",
+      "tsFormat": "Формат позначки",
+      "dateFormat": "Формат дати",
+      "notifyMention": "Сповіщати про згадки",
+      "notifyDM": "Сповіщати про особисті",
+      "notifyJoin": "Сповіщати про вхід",
+      "notifySound": "Звукові сповіщення",
+      "highlights": "Слова для виділення",
+      "logEnabled": "Увімкнути журнал",
+      "logDir": "Папка журналів",
+      "dccDir": "Папка DCC",
+      "dccAutoAccept": "Автоприйом DCC",
+      "save": "Зберегти",
+      "cancel": "Скасувати"
+    },
+    "about": {
+      "title": "Про bIRC",
+      "version": "Версія",
+      "license": "Ліцензія MIT",
+      "desc": "Класичний IRC-клієнт на Electron + Vue 3"
+    }
+  },
+  "status": {
+    "connecting": "*** Підключення до {host} ({port}){ssl}…",
+    "connected": "*** Підключено. Вхід…",
+    "disconnected": "*** Відключено від {host}",
+    "registered": "*** Виконано вхід як {nick}",
+    "error": "*** Помилка: {msg}",
+    "ssl": " через SSL"
+  },
+  "msg": {
+    "joined": "{nick} увійшов до {channel}",
+    "left": "{nick} вийшов з {channel}",
+    "quit": "{nick} відключився",
+    "kicked": "{nick} виключений {by}",
+    "nickChange": "{old} тепер {new}",
+    "topicChange": "{nick} змінив тему: {topic}",
+    "modeChange": "Режим {modes} від {nick}",
+    "nowTalking": "Ви розмовляєте в {channel}"
+  },
+  "ctx": {
+    "query": "Запит (DM)",
+    "whois": "WHOIS",
+    "mention": "Згадати",
+    "dcc": "Надіслати файл DCC",
+    "op": "Дати Op",
+    "deop": "Зняти Op",
+    "voice": "Дати Voice",
+    "kick": "Кікнути",
+    "ban": "Кікнути і забанити",
+    "focus": "На передній план",
+    "restore": "Відновити",
+    "leave": "Покинути / Part",
+    "connect": "Підключити",
+    "disconnect": "Відключити",
+    "joinChannel": "Увійти до каналу…",
+    "editServer": "Налаштування",
+    "deleteServer": "Видалити сервер"
+  }
+}

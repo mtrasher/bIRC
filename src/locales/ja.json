@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "name": "日本語",
+    "flag": "🇯🇵",
+    "dir": "ltr"
+  },
+  "menu": {
+    "file": "ファイル",
+    "network": "ネットワーク",
+    "view": "表示",
+    "window": "ウィンドウ",
+    "help": "ヘルプ",
+    "connect": "サーバーに接続…",
+    "addServer": "サーバーを追加…",
+    "joinChannel": "チャンネルに参加…",
+    "dcc": "DCC転送…",
+    "prefs": "設定…",
+    "exit": "終了",
+    "tile": "タイル表示",
+    "cascade": "重ねて表示",
+    "toolbar": "ツールバー",
+    "statusbar": "ステータスバー",
+    "servertree": "サーバーツリー",
+    "about": "bIRC について…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "接続",
+    "disconnect": "切断",
+    "addServer": "サーバーを追加",
+    "join": "参加",
+    "part": "退出",
+    "dcc": "DCC",
+    "prefs": "設定",
+    "tile": "タイル",
+    "cascade": "重ねる"
+  },
+  "tree": {
+    "status": "{name}（ステータス）",
+    "channelList": "チャンネルリスト"
+  },
+  "input": {
+    "placeholder": "{channel} へのメッセージ…",
+    "placeholderStatus": "コマンドを入力… (/list, /join #チャンネル)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "サーバーを追加",
+      "name": "ラベル",
+      "host": "ホスト",
+      "port": "ポート",
+      "ssl": "SSL/TLS を使用",
+      "password": "サーバーパスワード",
+      "nick": "ニックネーム",
+      "nickAlt": "代替ニックネーム",
+      "realname": "本名",
+      "username": "ユーザー名",
+      "autojoin": "チャンネルへ自動参加",
+      "add": "追加",
+      "addConnect": "追加して接続",
+      "cancel": "キャンセル"
+    },
+    "join": {
+      "title": "チャンネルに参加",
+      "channel": "チャンネル",
+      "key": "キー（任意）",
+      "join": "参加",
+      "cancel": "キャンセル"
+    },
+    "prefs": {
+      "title": "設定",
+      "identity": "プロフィール",
+      "appearance": "外観",
+      "timestamps": "タイムスタンプ",
+      "notifications": "通知",
+      "logging": "ログ",
+      "dcc": "DCC",
+      "nick": "ニックネーム",
+      "nickAlt": "代替ニックネーム",
+      "realname": "本名",
+      "username": "ユーザー名",
+      "font": "フォント",
+      "fontSize": "フォントサイズ",
+      "language": "言語",
+      "theme": "テーマ",
+      "coloredNicks": "カラーニックネーム",
+      "showTimestamp": "タイムスタンプを表示",
+      "tsFormat": "タイムスタンプ形式",
+      "dateFormat": "日付形式",
+      "notifyMention": "メンション時に通知",
+      "notifyDM": "ダイレクトメッセージ時に通知",
+      "notifyJoin": "参加時に通知",
+      "notifySound": "サウンド通知",
+      "highlights": "ハイライト単語",
+      "logEnabled": "ログを有効にする",
+      "logDir": "ログディレクトリ",
+      "dccDir": "DCC ダウンロードフォルダ",
+      "dccAutoAccept": "DCC を自動承認",
+      "save": "保存",
+      "cancel": "キャンセル"
+    },
+    "about": {
+      "title": "bIRC について",
+      "version": "バージョン",
+      "license": "MIT ライセンス",
+      "desc": "Electron + Vue 3 で構築されたクラシック IRC クライアント"
+    }
+  },
+  "status": {
+    "connecting": "*** {host}（{port}）{ssl}に接続中…",
+    "connected": "*** 接続しました。ログイン中…",
+    "disconnected": "*** {host} から切断されました",
+    "registered": "*** {nick} としてログインしました",
+    "error": "*** エラー：{msg}",
+    "ssl": "（SSL 経由）"
+  },
+  "msg": {
+    "joined": "{nick} が {channel} に参加しました",
+    "left": "{nick} が {channel} を退出しました",
+    "quit": "{nick} が切断しました",
+    "kicked": "{nick} が {by} にキックされました",
+    "nickChange": "{old} が {new} に改名しました",
+    "topicChange": "{nick} がトピックを変更しました：{topic}",
+    "modeChange": "{nick} がモードを変更しました {modes}",
+    "nowTalking": "{channel} で会話中"
+  },
+  "ctx": {
+    "query": "クエリ（DM）",
+    "whois": "WHOIS",
+    "mention": "メンション",
+    "dcc": "DCC ファイル送信",
+    "op": "Op を付与",
+    "deop": "Op を剥奪",
+    "voice": "Voice を付与",
+    "kick": "キック",
+    "ban": "キックバン",
+    "focus": "前面に表示",
+    "restore": "復元",
+    "leave": "退出 / Part",
+    "connect": "接続",
+    "disconnect": "切断",
+    "joinChannel": "チャンネルに参加…",
+    "editServer": "設定",
+    "deleteServer": "サーバーを削除"
+  }
+}

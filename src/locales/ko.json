@@ -1,0 +1,149 @@
+{
+  "_meta": {
+    "name": "한국어",
+    "flag": "🇰🇷",
+    "dir": "ltr"
+  },
+  "menu": {
+    "file": "파일",
+    "network": "네트워크",
+    "view": "보기",
+    "window": "창",
+    "help": "도움말",
+    "connect": "서버 연결…",
+    "addServer": "서버 추가…",
+    "joinChannel": "채널 참가…",
+    "dcc": "DCC 전송…",
+    "prefs": "환경설정…",
+    "exit": "종료",
+    "tile": "창 타일 배열",
+    "cascade": "창 계단식 배열",
+    "toolbar": "도구 모음",
+    "statusbar": "상태 표시줄",
+    "servertree": "서버 트리",
+    "about": "bIRC 정보…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "연결",
+    "disconnect": "연결 끊기",
+    "addServer": "서버 추가",
+    "join": "참가",
+    "part": "나가기",
+    "dcc": "DCC",
+    "prefs": "환경설정",
+    "tile": "타일",
+    "cascade": "계단식"
+  },
+  "tree": {
+    "status": "{name} (상태)",
+    "channelList": "채널 목록"
+  },
+  "input": {
+    "placeholder": "{channel}에 메시지…",
+    "placeholderStatus": "명령어 입력… (/list, /join #채널)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "서버 추가",
+      "name": "레이블",
+      "host": "호스트",
+      "port": "포트",
+      "ssl": "SSL/TLS 사용",
+      "password": "서버 비밀번호",
+      "nick": "닉네임",
+      "nickAlt": "대체 닉네임",
+      "realname": "실명",
+      "username": "사용자 이름",
+      "autojoin": "채널 자동 참가",
+      "add": "추가",
+      "addConnect": "추가 및 연결",
+      "cancel": "취소"
+    },
+    "join": {
+      "title": "채널 참가",
+      "channel": "채널",
+      "key": "키 (선택)",
+      "join": "참가",
+      "cancel": "취소"
+    },
+    "prefs": {
+      "title": "환경설정",
+      "identity": "신원",
+      "appearance": "외관",
+      "timestamps": "타임스탬프",
+      "notifications": "알림",
+      "logging": "로깅",
+      "dcc": "DCC",
+      "nick": "닉네임",
+      "nickAlt": "대체 닉네임",
+      "realname": "실명",
+      "username": "사용자 이름",
+      "font": "글꼴",
+      "fontSize": "글꼴 크기",
+      "language": "언어",
+      "theme": "테마",
+      "coloredNicks": "색상 닉네임",
+      "showTimestamp": "타임스탬프 표시",
+      "tsFormat": "타임스탬프 형식",
+      "dateFormat": "날짜 형식",
+      "notifyMention": "언급 시 알림",
+      "notifyDM": "다이렉트 메시지 시 알림",
+      "notifyJoin": "참가 시 알림",
+      "notifySound": "소리 알림",
+      "highlights": "하이라이트 단어",
+      "logEnabled": "로깅 활성화",
+      "logDir": "로그 디렉토리",
+      "dccDir": "DCC 다운로드 폴더",
+      "dccAutoAccept": "DCC 자동 수락",
+      "save": "저장",
+      "cancel": "취소"
+    },
+    "about": {
+      "title": "bIRC 정보",
+      "version": "버전",
+      "license": "MIT 라이선스",
+      "desc": "Electron + Vue 3로 구축된 클래식 IRC 클라이언트"
+    }
+  },
+  "status": {
+    "connecting": "*** {host} ({port}){ssl}에 연결 중…",
+    "connected": "*** 연결됨. 로그인 중…",
+    "disconnected": "*** {host}에서 연결이 끊어짐",
+    "registered": "*** {nick}으로 로그인됨",
+    "error": "*** 오류: {msg}",
+    "ssl": " (SSL 경유)"
+  },
+  "msg": {
+    "joined": "{nick}이(가) {channel}에 참가했습니다",
+    "left": "{nick}이(가) {channel}을(를) 떠났습니다",
+    "quit": "{nick}이(가) 종료했습니다",
+    "kicked": "{nick}이(가) {by}에 의해 추방됐습니다",
+    "nickChange": "{old}이(가) {new}(으)로 변경됐습니다",
+    "topicChange": "{nick}이(가) 주제를 변경했습니다: {topic}",
+    "modeChange": "{nick}이(가) 모드를 변경했습니다 {modes}",
+    "nowTalking": "{channel}에서 대화 중"
+  },
+  "statusbar": {
+    "focused": "포커스됨"
+  },
+  "ctx": {
+    "query": "쿼리 (DM)",
+    "whois": "WHOIS",
+    "mention": "언급",
+    "dcc": "DCC 파일 보내기",
+    "op": "Op 부여",
+    "deop": "Op 제거",
+    "voice": "Voice 부여",
+    "kick": "추방",
+    "ban": "추방 및 차단",
+    "focus": "앞으로 가져오기",
+    "restore": "복원",
+    "leave": "나가기 / Part",
+    "connect": "연결",
+    "disconnect": "연결 끊기",
+    "joinChannel": "채널 참가…",
+    "editServer": "설정",
+    "deleteServer": "서버 삭제"
+  }
+}

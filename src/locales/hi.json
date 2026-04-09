@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "name": "हिन्दी",
+    "flag": "🇮🇳",
+    "dir": "ltr"
+  },
+  "menu": {
+    "file": "फ़ाइल",
+    "network": "नेटवर्क",
+    "view": "देखें",
+    "window": "विंडो",
+    "help": "सहायता",
+    "connect": "सर्वर से जुड़ें…",
+    "addServer": "सर्वर जोड़ें…",
+    "joinChannel": "चैनल से जुड़ें…",
+    "dcc": "DCC ट्रांसफर…",
+    "prefs": "प्राथमिकताएँ…",
+    "exit": "बाहर",
+    "tile": "विंडो टाइल",
+    "cascade": "विंडो कैस्केड",
+    "toolbar": "टूलबार",
+    "statusbar": "स्टेटस बार",
+    "servertree": "सर्वर ट्री",
+    "about": "bIRC के बारे में…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "जुड़ें",
+    "disconnect": "अलग हों",
+    "addServer": "सर्वर जोड़ें",
+    "join": "जॉइन करें",
+    "part": "छोड़ें",
+    "dcc": "DCC",
+    "prefs": "प्राथमिकताएँ",
+    "tile": "टाइल",
+    "cascade": "कैस्केड"
+  },
+  "tree": {
+    "status": "{name} (स्थिति)",
+    "channelList": "चैनल सूची"
+  },
+  "input": {
+    "placeholder": "{channel} को संदेश…",
+    "placeholderStatus": "कमांड दर्ज करें… (/list, /join #चैनल)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "सर्वर जोड़ें",
+      "name": "लेबल",
+      "host": "होस्ट",
+      "port": "पोर्ट",
+      "ssl": "SSL/TLS उपयोग करें",
+      "password": "सर्वर पासवर्ड",
+      "nick": "उपनाम",
+      "nickAlt": "वैकल्पिक उपनाम",
+      "realname": "असली नाम",
+      "username": "उपयोगकर्ता नाम",
+      "autojoin": "स्वतः चैनल जॉइन",
+      "add": "जोड़ें",
+      "addConnect": "जोड़ें और जुड़ें",
+      "cancel": "रद्द"
+    },
+    "join": {
+      "title": "चैनल जॉइन करें",
+      "channel": "चैनल",
+      "key": "की (वैकल्पिक)",
+      "join": "जॉइन",
+      "cancel": "रद्द"
+    },
+    "prefs": {
+      "title": "प्राथमिकताएँ",
+      "identity": "पहचान",
+      "appearance": "दिखावट",
+      "timestamps": "टाइमस्टैंप",
+      "notifications": "सूचनाएँ",
+      "logging": "लॉगिंग",
+      "dcc": "DCC",
+      "nick": "उपनाम",
+      "nickAlt": "वैकल्पिक उपनाम",
+      "realname": "असली नाम",
+      "username": "उपयोगकर्ता नाम",
+      "font": "फ़ॉन्ट",
+      "fontSize": "फ़ॉन्ट आकार",
+      "language": "भाषा",
+      "theme": "थीम",
+      "coloredNicks": "रंगीन उपनाम",
+      "showTimestamp": "टाइमस्टैंप दिखाएं",
+      "tsFormat": "टाइमस्टैंप प्रारूप",
+      "dateFormat": "दिनांक प्रारूप",
+      "notifyMention": "उल्लेख पर सूचना",
+      "notifyDM": "सीधे संदेश पर सूचना",
+      "notifyJoin": "जॉइन पर सूचना",
+      "notifySound": "ध्वनि सूचना",
+      "highlights": "हाइलाइट शब्द",
+      "logEnabled": "लॉगिंग सक्षम",
+      "logDir": "लॉग निर्देशिका",
+      "dccDir": "DCC डाउनलोड फ़ोल्डर",
+      "dccAutoAccept": "DCC स्वतः स्वीकार",
+      "save": "सहेजें",
+      "cancel": "रद्द"
+    },
+    "about": {
+      "title": "bIRC के बारे में",
+      "version": "संस्करण",
+      "license": "MIT लाइसेंस",
+      "desc": "Electron + Vue 3 से बना क्लासिक IRC क्लाइंट"
+    }
+  },
+  "status": {
+    "connecting": "*** {host} ({port}){ssl} से जुड़ रहे हैं…",
+    "connected": "*** जुड़ गए। लॉगिन हो रहे हैं…",
+    "disconnected": "*** {host} से अलग हुए",
+    "registered": "*** {nick} के रूप में लॉगिन",
+    "error": "*** त्रुटि: {msg}",
+    "ssl": " SSL के माध्यम से"
+  },
+  "msg": {
+    "joined": "{nick} ने {channel} ज्वाइन किया",
+    "left": "{nick} ने {channel} छोड़ा",
+    "quit": "{nick} चला गया",
+    "kicked": "{nick} को {by} ने हटाया",
+    "nickChange": "{old} अब {new} है",
+    "topicChange": "{nick} ने विषय बदला: {topic}",
+    "modeChange": "मोड {modes} द्वारा {nick}",
+    "nowTalking": "{channel} में बात हो रही है"
+  },
+  "ctx": {
+    "query": "क्वेरी (DM)",
+    "whois": "WHOIS",
+    "mention": "उल्लेख",
+    "dcc": "DCC फ़ाइल भेजें",
+    "op": "Op दें",
+    "deop": "Op हटाएं",
+    "voice": "Voice दें",
+    "kick": "किक करें",
+    "ban": "किक और बैन",
+    "focus": "आगे लाएं",
+    "restore": "पुनर्स्थापित करें",
+    "leave": "छोड़ें",
+    "connect": "जुड़ें",
+    "disconnect": "अलग हों",
+    "joinChannel": "चैनल जॉइन करें…",
+    "editServer": "सेटिंग्स",
+    "deleteServer": "सर्वर हटाएं"
+  }
+}

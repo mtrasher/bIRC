@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "name": "Polski",
+    "flag": "🇵🇱",
+    "dir": "ltr"
+  },
+  "menu": {
+    "file": "Plik",
+    "network": "Sieć",
+    "view": "Widok",
+    "window": "Okno",
+    "help": "Pomoc",
+    "connect": "Połącz z serwerem…",
+    "addServer": "Dodaj serwer…",
+    "joinChannel": "Dołącz do kanału…",
+    "dcc": "Transfery DCC…",
+    "prefs": "Preferencje…",
+    "exit": "Wyjdź",
+    "tile": "Kafelki",
+    "cascade": "Kaskada",
+    "toolbar": "Pasek narzędzi",
+    "statusbar": "Pasek stanu",
+    "servertree": "Drzewo serwerów",
+    "about": "O bIRC…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "Połącz",
+    "disconnect": "Rozłącz",
+    "addServer": "Dodaj serwer",
+    "join": "Dołącz",
+    "part": "Wyjdź",
+    "dcc": "DCC",
+    "prefs": "Preferencje",
+    "tile": "Kafelki",
+    "cascade": "Kaskada"
+  },
+  "tree": {
+    "status": "{name} (status)",
+    "channelList": "Lista kanałów"
+  },
+  "input": {
+    "placeholder": "Wiadomość do {channel}…",
+    "placeholderStatus": "Wprowadź polecenie… (/list, /join #kanał)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "Dodaj serwer",
+      "name": "Etykieta",
+      "host": "Host",
+      "port": "Port",
+      "ssl": "Użyj SSL/TLS",
+      "password": "Hasło serwera",
+      "nick": "Pseudonim",
+      "nickAlt": "Alt. pseudonim",
+      "realname": "Prawdziwe imię",
+      "username": "Nazwa użytkownika",
+      "autojoin": "Automatyczne dołączanie",
+      "add": "Dodaj",
+      "addConnect": "Dodaj i połącz",
+      "cancel": "Anuluj"
+    },
+    "join": {
+      "title": "Dołącz do kanału",
+      "channel": "Kanał",
+      "key": "Klucz (opcjonalnie)",
+      "join": "Dołącz",
+      "cancel": "Anuluj"
+    },
+    "prefs": {
+      "title": "Preferencje",
+      "identity": "Tożsamość",
+      "appearance": "Wygląd",
+      "timestamps": "Znaczniki czasu",
+      "notifications": "Powiadomienia",
+      "logging": "Rejestrowanie",
+      "dcc": "DCC",
+      "nick": "Pseudonim",
+      "nickAlt": "Alt. pseudonim",
+      "realname": "Prawdziwe imię",
+      "username": "Nazwa użytkownika",
+      "font": "Czcionka",
+      "fontSize": "Rozmiar",
+      "language": "Język",
+      "theme": "Motyw",
+      "coloredNicks": "Kolorowe pseudonimy",
+      "showTimestamp": "Pokaż znaczniki",
+      "tsFormat": "Format znacznika",
+      "dateFormat": "Format daty",
+      "notifyMention": "Powiadom przy wzmiance",
+      "notifyDM": "Powiadom o wiad. prywatnej",
+      "notifyJoin": "Powiadom przy dołączeniu",
+      "notifySound": "Dźwiękowe powiadomienia",
+      "highlights": "Wyróżnione słowa",
+      "logEnabled": "Włącz rejestrowanie",
+      "logDir": "Katalog rejestru",
+      "dccDir": "Folder DCC",
+      "dccAutoAccept": "Automatycznie akceptuj DCC",
+      "save": "Zapisz",
+      "cancel": "Anuluj"
+    },
+    "about": {
+      "title": "O bIRC",
+      "version": "Wersja",
+      "license": "Licencja MIT",
+      "desc": "Klasyczny klient IRC oparty na Electron + Vue 3"
+    }
+  },
+  "status": {
+    "connecting": "*** Łączenie z {host} ({port}){ssl}…",
+    "connected": "*** Połączono. Logowanie…",
+    "disconnected": "*** Rozłączono z {host}",
+    "registered": "*** Zalogowano jako {nick}",
+    "error": "*** Błąd: {msg}",
+    "ssl": " przez SSL"
+  },
+  "msg": {
+    "joined": "{nick} dołączył do {channel}",
+    "left": "{nick} opuścił {channel}",
+    "quit": "{nick} rozłączył się",
+    "kicked": "{nick} wyrzucony przez {by}",
+    "nickChange": "{old} jest teraz {new}",
+    "topicChange": "{nick} zmienił temat: {topic}",
+    "modeChange": "Tryb {modes} przez {nick}",
+    "nowTalking": "Rozmawiasz w {channel}"
+  },
+  "ctx": {
+    "query": "Query (DM)",
+    "whois": "WHOIS",
+    "mention": "Wspomnij",
+    "dcc": "Wyślij plik DCC",
+    "op": "Nadaj Op",
+    "deop": "Odbierz Op",
+    "voice": "Nadaj Voice",
+    "kick": "Wyrzuć",
+    "ban": "Wyrzuć i zbanuj",
+    "focus": "Przesuń na wierzch",
+    "restore": "Przywróć",
+    "leave": "Opuść / Part",
+    "connect": "Połącz",
+    "disconnect": "Rozłącz",
+    "joinChannel": "Dołącz do kanału…",
+    "editServer": "Ustawienia",
+    "deleteServer": "Usuń serwer"
+  }
+}

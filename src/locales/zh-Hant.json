@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "name": "中文（繁體）",
+    "flag": "🇹🇼",
+    "dir": "ltr"
+  },
+  "menu": {
+    "file": "檔案",
+    "network": "網路",
+    "view": "檢視",
+    "window": "視窗",
+    "help": "說明",
+    "connect": "連線到伺服器…",
+    "addServer": "新增伺服器…",
+    "joinChannel": "加入頻道…",
+    "dcc": "DCC 傳輸…",
+    "prefs": "偏好設定…",
+    "exit": "結束",
+    "tile": "並排視窗",
+    "cascade": "串疊視窗",
+    "toolbar": "工具列",
+    "statusbar": "狀態列",
+    "servertree": "伺服器樹",
+    "about": "關於 bIRC…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "連線",
+    "disconnect": "中斷",
+    "addServer": "新增伺服器",
+    "join": "加入",
+    "part": "離開",
+    "dcc": "DCC",
+    "prefs": "偏好設定",
+    "tile": "並排",
+    "cascade": "串疊"
+  },
+  "tree": {
+    "status": "{name}（狀態）",
+    "channelList": "頻道清單"
+  },
+  "input": {
+    "placeholder": "傳送到 {channel}…",
+    "placeholderStatus": "輸入指令… (/list, /join #頻道)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "新增伺服器",
+      "name": "標籤",
+      "host": "主機",
+      "port": "連接埠",
+      "ssl": "使用 SSL/TLS",
+      "password": "伺服器密碼",
+      "nick": "暱稱",
+      "nickAlt": "備用暱稱",
+      "realname": "真實姓名",
+      "username": "使用者名稱",
+      "autojoin": "自動加入頻道",
+      "add": "新增",
+      "addConnect": "新增並連線",
+      "cancel": "取消"
+    },
+    "join": {
+      "title": "加入頻道",
+      "channel": "頻道",
+      "key": "金鑰（選用）",
+      "join": "加入",
+      "cancel": "取消"
+    },
+    "prefs": {
+      "title": "偏好設定",
+      "identity": "身分",
+      "appearance": "外觀",
+      "timestamps": "時間戳記",
+      "notifications": "通知",
+      "logging": "記錄",
+      "dcc": "DCC",
+      "nick": "暱稱",
+      "nickAlt": "備用暱稱",
+      "realname": "真實姓名",
+      "username": "使用者名稱",
+      "font": "字型",
+      "fontSize": "字型大小",
+      "language": "語言",
+      "theme": "佈景主題",
+      "coloredNicks": "彩色暱稱",
+      "showTimestamp": "顯示時間戳記",
+      "tsFormat": "時間戳記格式",
+      "dateFormat": "日期格式",
+      "notifyMention": "被提及時通知",
+      "notifyDM": "私訊時通知",
+      "notifyJoin": "加入時通知",
+      "notifySound": "聲音通知",
+      "highlights": "醒目提示字詞",
+      "logEnabled": "啟用記錄",
+      "logDir": "記錄目錄",
+      "dccDir": "DCC 下載目錄",
+      "dccAutoAccept": "自動接受 DCC",
+      "save": "儲存",
+      "cancel": "取消"
+    },
+    "about": {
+      "title": "關於 bIRC",
+      "version": "版本",
+      "license": "MIT 授權",
+      "desc": "以 Electron + Vue 3 打造的經典 IRC 用戶端"
+    }
+  },
+  "status": {
+    "connecting": "*** 正在連線到 {host}（{port}）{ssl}…",
+    "connected": "*** 已連線，正在登入…",
+    "disconnected": "*** 已中斷與 {host} 的連線",
+    "registered": "*** 已以 {nick} 身分登入",
+    "error": "*** 錯誤：{msg}",
+    "ssl": "（透過 SSL）"
+  },
+  "msg": {
+    "joined": "{nick} 加入了 {channel}",
+    "left": "{nick} 離開了 {channel}",
+    "quit": "{nick} 已退出",
+    "kicked": "{nick} 被 {by} 踢出",
+    "nickChange": "{old} 現在改名為 {new}",
+    "topicChange": "{nick} 將主題更改為：{topic}",
+    "modeChange": "{nick} 更改了模式 {modes}",
+    "nowTalking": "現在正在 {channel} 中發言"
+  },
+  "ctx": {
+    "query": "私訊 (DM)",
+    "whois": "WHOIS",
+    "mention": "提及",
+    "dcc": "DCC 傳送檔案",
+    "op": "給予 Op",
+    "deop": "撤銷 Op",
+    "voice": "給予 Voice",
+    "kick": "踢出",
+    "ban": "踢出並封鎖",
+    "focus": "置於前台",
+    "restore": "還原",
+    "leave": "離開 / Part",
+    "connect": "連線",
+    "disconnect": "中斷",
+    "joinChannel": "加入頻道…",
+    "editServer": "設定",
+    "deleteServer": "刪除伺服器"
+  }
+}

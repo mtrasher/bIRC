@@ -1,0 +1,109 @@
+.theme-midnight {
+    --bg:        #1e1e1e;
+    --bg2:       #252526;
+    --bg3:       #2d2d2d;
+    --border-hi: #3c3c3c;
+    --border-lo: #1a1a1a;
+    --text:      #cccccc;
+    --text-dim:  #808080;
+    --accent:    #0078d4;
+    --accent2:   #005a9e;
+    --sel-bg:    #0078d4;
+    --sel-fg:    #ffffff;
+    --chat-bg:   #1e1e1e;
+    --input-bg:  #2d2d2d;
+}
+
+.theme-midnight .app          { background: var(--bg2); color: var(--text); }
+.theme-midnight .menubar      { background: var(--bg3); border-bottom-color: var(--border-hi); }
+.theme-midnight .mi           { color: var(--text); }
+.theme-midnight .mi:hover, .theme-midnight .mi.active { background: var(--accent); color: #fff; }
+.theme-midnight .toolbar      { background: var(--bg3); border-bottom: 1px solid var(--border-hi); box-shadow: 0 1px 4px rgba(0,0,0,0.4); }
+.theme-midnight .tb           { background: transparent; color: var(--text); border: 1px solid transparent; border-radius: 4px; transition: all .15s; }
+.theme-midnight .tb:hover     { background: var(--bg); border-color: var(--border-hi); }
+.theme-midnight .tb-sep       { border-color: var(--border-lo) var(--border-hi); }
+.theme-midnight .btn-row      { background: var(--bg3); border-bottom-color: var(--border-hi); box-shadow: none; }
+.theme-midnight .ch-btn       { background: var(--bg3); color: var(--text); border: 1px solid var(--border-hi); border-radius: 3px; transition: all .1s; }
+.theme-midnight .ch-btn:hover { background: var(--bg); }
+.theme-midnight .ch-btn.active { background: var(--bg2); border-color: var(--accent); }
+
+.theme-midnight .tree         { background: var(--bg2); border-color: var(--border-lo); box-shadow: none; }
+.theme-midnight .t-server     { background: var(--accent2); border-color: var(--border-lo); transition: background .15s; }
+.theme-midnight .t-server:hover { background: var(--accent); }
+.theme-midnight .t-server .srv-name { color: #fff; }
+.theme-midnight .t-row:hover, .theme-midnight .t-row.sel,
+.theme-midnight .t-status:hover, .theme-midnight .t-status.sel { background: var(--accent); color: #fff; }
+.theme-midnight .t-lbl        { color: var(--text); }
+.theme-midnight .t-lbl.status { color: var(--text-dim); }
+
+.theme-midnight .mdi          { background: #141414; }
+.theme-midnight .mw           { background: var(--bg2); border: 1px solid var(--border-hi); box-shadow: 0 4px 20px rgba(0,0,0,0.5); border-radius: 4px; }
+.theme-midnight .mw::before   { display: none; }
+.theme-midnight .mw-tb        { background: #2a2a2a; border-radius: 3px 3px 0 0; border-bottom: 1px solid var(--border-hi); }
+.theme-midnight .mw.is-focused .mw-tb { background: linear-gradient(to right, var(--accent2), var(--accent)); }
+.theme-midnight .mw-title     { color: var(--text-dim); }
+.theme-midnight .mw.is-focused .mw-title { color: #fff; }
+.theme-midnight .mw-btn       { background: var(--bg3); color: var(--text); border: 1px solid var(--border-hi); border-radius: 3px; transition: all .1s; }
+.theme-midnight .mw-btn:hover { background: #3a3a3a; }
+.theme-midnight .mw-btn.cl:hover { background: #c0392b; color: #fff; border-color: #a93226; }
+.theme-midnight .mw-autojoin-btn { background: var(--bg3); color: var(--text); border: 1px solid var(--border-hi); border-radius: 3px; opacity: 0.7; }
+.theme-midnight .mw-autojoin-btn:hover { background: var(--accent); color: #fff; opacity: 1; border-color: var(--accent); }
+
+.theme-midnight .mw-topic     { background: var(--bg3); box-shadow: none; border-bottom-color: var(--border-hi); }
+.theme-midnight .mw-topic-label { color: var(--text-dim); }
+.theme-midnight .mw-topic-text  { color: #4fc3f7; }
+.theme-midnight .mw-chat      { background: var(--chat-bg); border-color: var(--border-lo); }
+.theme-midnight .ln:hover     { background: #2a2a2a; }
+.theme-midnight .ts           { color: #555; }
+.theme-midnight .txt          { color: var(--text); }
+.theme-midnight .ln.sys  .txt, .theme-midnight .ln.sys  .nick { color: #4a9e4a; }
+.theme-midnight .ln.join .txt, .theme-midnight .ln.join .nick { color: #4a9e4a; }
+.theme-midnight .ln.part .txt, .theme-midnight .ln.part .nick { color: #9e4a4a; }
+.theme-midnight .ln.notice .txt, .theme-midnight .ln.notice .nick { color: #4a9e9e; }
+.theme-midnight .ln.mention   { background: #2a2000; }
+.theme-midnight .ln.action .txt { color: #c792ea; }
+
+.theme-midnight .ulist        { background: var(--bg2); border-color: var(--border-lo); }
+.theme-midnight .u-head       { background: var(--bg3); color: var(--text); border-bottom-color: var(--border-hi); }
+.theme-midnight .u-n.user     { color: var(--text); }
+.theme-midnight .u-row:hover  { background: var(--accent); }
+.theme-midnight .u-row:hover .u-p, .theme-midnight .u-row:hover .u-n { color: #fff; }
+
+.theme-midnight .mw-input     { background: var(--bg3); border-top-color: var(--border-hi); }
+.theme-midnight .inp          { background: var(--input-bg); color: var(--text); border-color: var(--border-lo) var(--border-hi) var(--border-hi) var(--border-lo); border-radius: 3px; }
+.theme-midnight .inp-nick     { color: #4fc3f7; }
+
+.theme-midnight .statusbar    { background: var(--bg3); border-top-color: var(--border-hi); }
+.theme-midnight .sb           { background: var(--bg3); color: var(--text); border-color: var(--border-lo); }
+
+.theme-midnight .ctx-menu     { background: var(--bg3); border: 1px solid var(--border-hi); box-shadow: 0 4px 16px rgba(0,0,0,0.5); border-radius: 4px; }
+.theme-midnight .ctx-item     { color: var(--text); }
+.theme-midnight .ctx-item:hover { background: var(--accent); color: #fff; }
+.theme-midnight .ctx-sep      { background: var(--border-hi); box-shadow: none; }
+
+.theme-midnight .dlg          { background: var(--bg2); border: 1px solid var(--border-hi); box-shadow: 0 8px 32px rgba(0,0,0,0.6); border-radius: 6px; }
+.theme-midnight .dlg-tb       { background: linear-gradient(to right, var(--accent2), var(--accent)); border-radius: 5px 5px 0 0; }
+.theme-midnight .dlg-inp      { background: var(--input-bg); color: var(--text); border-color: var(--border-hi); border-radius: 3px; }
+.theme-midnight .dlg-sel      { background: var(--input-bg); color: var(--text); border-color: var(--border-lo); border-radius: 3px; }
+.theme-midnight .dlg-btn      { background: var(--bg3); color: var(--text); border: 1px solid var(--border-hi); border-radius: 4px; transition: all .1s; }
+.theme-midnight .dlg-btn:hover { background: var(--bg); }
+.theme-midnight .dlg-footer   { background: var(--bg2); border-top-color: var(--border-hi); box-shadow: none; }
+.theme-midnight .dlg-lbl      { color: var(--text); }
+.theme-midnight .dlg-section::after, .theme-midnight .prefs-group::after { border-top-color: var(--border-hi); box-shadow: none; }
+.theme-midnight .prefs-nav    { background: var(--input-bg); border-color: var(--border-lo); }
+.theme-midnight .prefs-nav-item { color: var(--text); }
+.theme-midnight .prefs-nav-item:hover, .theme-midnight .prefs-nav-item.active { background: var(--accent); color: #fff; }
+
+.theme-midnight .chanlist        { background: var(--bg); border-color: var(--border-lo); }
+.theme-midnight .chanlist-bar    { background: var(--bg3); border-bottom-color: var(--border-hi); }
+.theme-midnight .chanlist-count  { color: var(--text-dim); }
+.theme-midnight .chanlist-filter { background: var(--input-bg); color: var(--text); border-color: var(--border-lo); border-radius: 3px; }
+.theme-midnight .chanlist-btn    { background: var(--bg3); color: var(--text); border: 1px solid var(--border-hi); border-radius: 3px; }
+.theme-midnight .chanlist-btn:hover { background: var(--bg); }
+.theme-midnight .chanlist-head   { background: var(--bg3); border-bottom-color: var(--border-hi); }
+.theme-midnight .chanlist-head .cl-col { color: var(--text); border-right-color: var(--border-hi); }
+.theme-midnight .chanlist-head .cl-col:hover { background: var(--bg); }
+.theme-midnight .chanlist-row    { border-bottom-color: var(--border-hi); color: var(--text); }
+.theme-midnight .chanlist-row:hover { background: rgba(0,120,212,0.2); }
+.theme-midnight .chanlist-row.sel { background: var(--accent); color: #fff; }
+.theme-midnight .chanlist-empty  { color: var(--text-dim); }

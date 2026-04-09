@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "name": "Italiano",
+    "flag": "🇮🇹",
+    "dir": "ltr"
+  },
+  "menu": {
+    "file": "File",
+    "network": "Rete",
+    "view": "Visualizza",
+    "window": "Finestra",
+    "help": "Guida",
+    "connect": "Connetti al server…",
+    "addServer": "Aggiungi server…",
+    "joinChannel": "Entra nel canale…",
+    "dcc": "Trasferimenti DCC…",
+    "prefs": "Preferenze…",
+    "exit": "Esci",
+    "tile": "Affianca finestre",
+    "cascade": "Finestre a cascata",
+    "toolbar": "Barra degli strumenti",
+    "statusbar": "Barra di stato",
+    "servertree": "Albero server",
+    "about": "Informazioni su bIRC…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "Connetti",
+    "disconnect": "Disconnetti",
+    "addServer": "Aggiungi server",
+    "join": "Entra",
+    "part": "Esci",
+    "dcc": "DCC",
+    "prefs": "Preferenze",
+    "tile": "Affianca",
+    "cascade": "Cascata"
+  },
+  "tree": {
+    "status": "{name} (stato)",
+    "channelList": "Lista canali"
+  },
+  "input": {
+    "placeholder": "Messaggio a {channel}…",
+    "placeholderStatus": "Inserisci un comando… (/list, /join #canale)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "Aggiungi server",
+      "name": "Etichetta",
+      "host": "Host",
+      "port": "Porta",
+      "ssl": "Usa SSL/TLS",
+      "password": "Password server",
+      "nick": "Soprannome",
+      "nickAlt": "Soprannome alternativo",
+      "realname": "Nome reale",
+      "username": "Nome utente",
+      "autojoin": "Entra automaticamente nei canali",
+      "add": "Aggiungi",
+      "addConnect": "Aggiungi e connetti",
+      "cancel": "Annulla"
+    },
+    "join": {
+      "title": "Entra nel canale",
+      "channel": "Canale",
+      "key": "Chiave (opzionale)",
+      "join": "Entra",
+      "cancel": "Annulla"
+    },
+    "prefs": {
+      "title": "Preferenze",
+      "identity": "Identità",
+      "appearance": "Aspetto",
+      "timestamps": "Timestamp",
+      "notifications": "Notifiche",
+      "logging": "Registro",
+      "dcc": "DCC",
+      "nick": "Soprannome",
+      "nickAlt": "Soprannome alternativo",
+      "realname": "Nome reale",
+      "username": "Nome utente",
+      "font": "Carattere",
+      "fontSize": "Dimensione",
+      "language": "Lingua",
+      "theme": "Tema",
+      "coloredNicks": "Soprannomi colorati",
+      "showTimestamp": "Mostra timestamp",
+      "tsFormat": "Formato timestamp",
+      "dateFormat": "Formato data",
+      "notifyMention": "Notifica se menzionato",
+      "notifyDM": "Notifica messaggio diretto",
+      "notifyJoin": "Notifica all'ingresso",
+      "notifySound": "Notifiche sonore",
+      "highlights": "Parole evidenziate",
+      "logEnabled": "Abilita registro",
+      "logDir": "Cartella registro",
+      "dccDir": "Cartella download DCC",
+      "dccAutoAccept": "Accetta DCC automaticamente",
+      "save": "Salva",
+      "cancel": "Annulla"
+    },
+    "about": {
+      "title": "Informazioni su bIRC",
+      "version": "Versione",
+      "license": "Licenza MIT",
+      "desc": "Un client IRC classico costruito con Electron + Vue 3"
+    }
+  },
+  "status": {
+    "connecting": "*** Connessione a {host} ({port}){ssl}…",
+    "connected": "*** Connesso. Accesso in corso…",
+    "disconnected": "*** Disconnesso da {host}",
+    "registered": "*** Accesso come {nick}",
+    "error": "*** Errore: {msg}",
+    "ssl": " via SSL"
+  },
+  "msg": {
+    "joined": "{nick} è entrato in {channel}",
+    "left": "{nick} ha lasciato {channel}",
+    "quit": "{nick} si è disconnesso",
+    "kicked": "{nick} è stato espulso da {by}",
+    "nickChange": "{old} si chiama ora {new}",
+    "topicChange": "{nick} ha cambiato l'argomento: {topic}",
+    "modeChange": "Modalità {modes} da {nick}",
+    "nowTalking": "Stai parlando in {channel}"
+  },
+  "ctx": {
+    "query": "Query (DM)",
+    "whois": "WHOIS",
+    "mention": "Menziona",
+    "dcc": "Invia file DCC",
+    "op": "Dai Op",
+    "deop": "Rimuovi Op",
+    "voice": "Dai Voice",
+    "kick": "Espelli",
+    "ban": "Espelli e banna",
+    "focus": "Porta in primo piano",
+    "restore": "Ripristina",
+    "leave": "Esci / Part",
+    "connect": "Connetti",
+    "disconnect": "Disconnetti",
+    "joinChannel": "Entra nel canale…",
+    "editServer": "Impostazioni",
+    "deleteServer": "Elimina server"
+  }
+}

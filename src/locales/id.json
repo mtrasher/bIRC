@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "name": "Bahasa Indonesia",
+    "flag": "🇮🇩",
+    "dir": "ltr"
+  },
+  "menu": {
+    "file": "Berkas",
+    "network": "Jaringan",
+    "view": "Tampilan",
+    "window": "Jendela",
+    "help": "Bantuan",
+    "connect": "Sambung ke server…",
+    "addServer": "Tambah server…",
+    "joinChannel": "Masuk saluran…",
+    "dcc": "Transfer DCC…",
+    "prefs": "Preferensi…",
+    "exit": "Keluar",
+    "tile": "Ubin jendela",
+    "cascade": "Susun jendela",
+    "toolbar": "Bilah alat",
+    "statusbar": "Bilah status",
+    "servertree": "Pohon server",
+    "about": "Tentang bIRC…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "Sambung",
+    "disconnect": "Putus",
+    "addServer": "Tambah server",
+    "join": "Masuk",
+    "part": "Keluar",
+    "dcc": "DCC",
+    "prefs": "Preferensi",
+    "tile": "Ubin",
+    "cascade": "Susun"
+  },
+  "tree": {
+    "status": "{name} (status)",
+    "channelList": "Daftar saluran"
+  },
+  "input": {
+    "placeholder": "Pesan ke {channel}…",
+    "placeholderStatus": "Masukkan perintah… (/list, /join #saluran)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "Tambah Server",
+      "name": "Label",
+      "host": "Host",
+      "port": "Port",
+      "ssl": "Gunakan SSL/TLS",
+      "password": "Sandi server",
+      "nick": "Nama panggilan",
+      "nickAlt": "Nama panggilan alternatif",
+      "realname": "Nama asli",
+      "username": "Nama pengguna",
+      "autojoin": "Masuk saluran otomatis",
+      "add": "Tambah",
+      "addConnect": "Tambah & Sambung",
+      "cancel": "Batal"
+    },
+    "join": {
+      "title": "Masuk Saluran",
+      "channel": "Saluran",
+      "key": "Kunci (opsional)",
+      "join": "Masuk",
+      "cancel": "Batal"
+    },
+    "prefs": {
+      "title": "Preferensi",
+      "identity": "Identitas",
+      "appearance": "Tampilan",
+      "timestamps": "Cap waktu",
+      "notifications": "Notifikasi",
+      "logging": "Pencatatan",
+      "dcc": "DCC",
+      "nick": "Nama panggilan",
+      "nickAlt": "Nama panggilan alternatif",
+      "realname": "Nama asli",
+      "username": "Nama pengguna",
+      "font": "Fon",
+      "fontSize": "Ukuran fon",
+      "language": "Bahasa",
+      "theme": "Tema",
+      "coloredNicks": "Nama panggilan berwarna",
+      "showTimestamp": "Tampilkan cap waktu",
+      "tsFormat": "Format cap waktu",
+      "dateFormat": "Format tanggal",
+      "notifyMention": "Notifikasi saat disebut",
+      "notifyDM": "Notifikasi pesan langsung",
+      "notifyJoin": "Notifikasi saat masuk",
+      "notifySound": "Notifikasi suara",
+      "highlights": "Kata sorotan",
+      "logEnabled": "Aktifkan pencatatan",
+      "logDir": "Direktori catatan",
+      "dccDir": "Folder unduhan DCC",
+      "dccAutoAccept": "Terima DCC otomatis",
+      "save": "Simpan",
+      "cancel": "Batal"
+    },
+    "about": {
+      "title": "Tentang bIRC",
+      "version": "Versi",
+      "license": "Lisensi MIT",
+      "desc": "Klien IRC klasik yang dibangun dengan Electron + Vue 3"
+    }
+  },
+  "status": {
+    "connecting": "*** Menyambung ke {host} ({port}){ssl}…",
+    "connected": "*** Tersambung. Masuk…",
+    "disconnected": "*** Terputus dari {host}",
+    "registered": "*** Masuk sebagai {nick}",
+    "error": "*** Kesalahan: {msg}",
+    "ssl": " via SSL"
+  },
+  "msg": {
+    "joined": "{nick} masuk ke {channel}",
+    "left": "{nick} keluar dari {channel}",
+    "quit": "{nick} keluar",
+    "kicked": "{nick} ditendang oleh {by}",
+    "nickChange": "{old} sekarang bernama {new}",
+    "topicChange": "{nick} mengubah topik: {topic}",
+    "modeChange": "Mode {modes} oleh {nick}",
+    "nowTalking": "Kini berbicara di {channel}"
+  },
+  "ctx": {
+    "query": "Pesan langsung (DM)",
+    "whois": "WHOIS",
+    "mention": "Sebut",
+    "dcc": "Kirim file DCC",
+    "op": "Beri Op",
+    "deop": "Cabut Op",
+    "voice": "Beri Voice",
+    "kick": "Tendang",
+    "ban": "Tendang & blokir",
+    "focus": "Bawa ke depan",
+    "restore": "Pulihkan",
+    "leave": "Keluar / Part",
+    "connect": "Sambung",
+    "disconnect": "Putus",
+    "joinChannel": "Masuk saluran…",
+    "editServer": "Pengaturan",
+    "deleteServer": "Hapus server"
+  }
+}

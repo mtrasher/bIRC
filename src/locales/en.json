@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "name": "English",
+    "flag": " ",
+    "dir": "ltr"
+  },
+  "menu": {
+    "file": "File",
+    "network": "Network",
+    "view": "View",
+    "window": "Window",
+    "help": "Help",
+    "connect": "Connect to server…",
+    "addServer": "Add server…",
+    "joinChannel": "Join channel…",
+    "dcc": "DCC transfers…",
+    "prefs": "Preferences…",
+    "exit": "Exit",
+    "tile": "Tile windows",
+    "cascade": "Cascade windows",
+    "toolbar": "Toolbar",
+    "statusbar": "Status bar",
+    "servertree": "Server tree",
+    "about": "About bIRC…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "addServer": "Add Server",
+    "join": "Join",
+    "part": "Part",
+    "dcc": "DCC",
+    "prefs": "Preferences",
+    "tile": "Tile",
+    "cascade": "Cascade"
+  },
+  "tree": {
+    "status": "{name} (status)",
+    "channelList": "Channel List"
+  },
+  "input": {
+    "placeholder": "Message {channel}…",
+    "placeholderStatus": "Enter command… (/list, /join #channel)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "Add Server",
+      "name": "Label",
+      "host": "Host",
+      "port": "Port",
+      "ssl": "Use SSL/TLS",
+      "password": "Server password",
+      "nick": "Nickname",
+      "nickAlt": "Alt. nickname",
+      "realname": "Real name",
+      "username": "Username",
+      "autojoin": "Auto-join channels",
+      "add": "Add",
+      "addConnect": "Add & Connect",
+      "cancel": "Cancel"
+    },
+    "join": {
+      "title": "Join Channel",
+      "channel": "Channel",
+      "key": "Key (optional)",
+      "join": "Join",
+      "cancel": "Cancel"
+    },
+    "prefs": {
+      "title": "Preferences",
+      "identity": "Identity",
+      "appearance": "Appearance",
+      "timestamps": "Timestamps",
+      "notifications": "Notifications",
+      "logging": "Logging",
+      "dcc": "DCC",
+      "nick": "Nickname",
+      "nickAlt": "Alt. nickname",
+      "realname": "Real name",
+      "username": "Username",
+      "font": "Font",
+      "fontSize": "Font size",
+      "language": "Language",
+      "theme": "Theme",
+      "coloredNicks": "Colored nicknames",
+      "showTimestamp": "Show timestamps",
+      "tsFormat": "Timestamp format",
+      "dateFormat": "Date format",
+      "notifyMention": "Notify on mention",
+      "notifyDM": "Notify on direct message",
+      "notifyJoin": "Notify on join",
+      "notifySound": "Sound notifications",
+      "highlights": "Highlight words",
+      "logEnabled": "Enable logging",
+      "logDir": "Log directory",
+      "dccDir": "DCC download folder",
+      "dccAutoAccept": "Auto-accept DCC",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "about": {
+      "title": "About bIRC",
+      "version": "Version",
+      "license": "MIT License",
+      "desc": "A classic IRC client built with Electron + Vue 3"
+    }
+  },
+  "status": {
+    "connecting": "*** Connecting to {host} ({port}){ssl}…",
+    "connected": "*** Connected. Logging in…",
+    "disconnected": "*** Disconnected from {host}",
+    "registered": "*** Logged in as {nick}",
+    "error": "*** Error: {msg}",
+    "ssl": " via SSL"
+  },
+  "msg": {
+    "joined": "{nick} has joined {channel}",
+    "left": "{nick} has left {channel}",
+    "quit": "{nick} has quit",
+    "kicked": "{nick} was kicked by {by}",
+    "nickChange": "{old} is now known as {new}",
+    "topicChange": "{nick} changed topic to: {topic}",
+    "modeChange": "Mode {modes} by {nick}",
+    "nowTalking": "Now talking on {channel}"
+  },
+  "ctx": {
+    "query": "Query (DM)",
+    "whois": "WHOIS",
+    "mention": "Mention",
+    "dcc": "DCC Send file",
+    "op": "Give Op",
+    "deop": "Remove Op",
+    "voice": "Give Voice",
+    "kick": "Kick",
+    "ban": "Kickban",
+    "focus": "Bring to front",
+    "restore": "Restore",
+    "leave": "Leave / Part",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "joinChannel": "Join Channel…",
+    "editServer": "Settings",
+    "deleteServer": "Delete Server"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "name": "Français",
+    "flag": "🇫🇷",
+    "dir": "ltr"
+  },
+  "menu": {
+    "file": "Fichier",
+    "network": "Réseau",
+    "view": "Affichage",
+    "window": "Fenêtre",
+    "help": "Aide",
+    "connect": "Connexion au serveur…",
+    "addServer": "Ajouter un serveur…",
+    "joinChannel": "Rejoindre un salon…",
+    "dcc": "Transferts DCC…",
+    "prefs": "Préférences…",
+    "exit": "Quitter",
+    "tile": "Mosaïque",
+    "cascade": "Cascade",
+    "toolbar": "Barre d'outils",
+    "statusbar": "Barre d'état",
+    "servertree": "Arbre des serveurs",
+    "about": "À propos de bIRC…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "Connexion",
+    "disconnect": "Déconnexion",
+    "addServer": "Ajouter un serveur",
+    "join": "Rejoindre",
+    "part": "Quitter",
+    "dcc": "DCC",
+    "prefs": "Préférences",
+    "tile": "Mosaïque",
+    "cascade": "Cascade"
+  },
+  "tree": {
+    "status": "{name} (état)",
+    "channelList": "Liste des salons"
+  },
+  "input": {
+    "placeholder": "Message dans {channel}…",
+    "placeholderStatus": "Entrez une commande… (/list, /join #salon)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "Ajouter un serveur",
+      "name": "Libellé",
+      "host": "Hôte",
+      "port": "Port",
+      "ssl": "Utiliser SSL/TLS",
+      "password": "Mot de passe",
+      "nick": "Pseudo",
+      "nickAlt": "Pseudo alternatif",
+      "realname": "Nom réel",
+      "username": "Nom d'utilisateur",
+      "autojoin": "Rejoindre automatiquement",
+      "add": "Ajouter",
+      "addConnect": "Ajouter et connecter",
+      "cancel": "Annuler"
+    },
+    "join": {
+      "title": "Rejoindre un salon",
+      "channel": "Salon",
+      "key": "Clé (optionnel)",
+      "join": "Rejoindre",
+      "cancel": "Annuler"
+    },
+    "prefs": {
+      "title": "Préférences",
+      "identity": "Identité",
+      "appearance": "Apparence",
+      "timestamps": "Horodatage",
+      "notifications": "Notifications",
+      "logging": "Journaux",
+      "dcc": "DCC",
+      "nick": "Pseudo",
+      "nickAlt": "Pseudo alternatif",
+      "realname": "Nom réel",
+      "username": "Nom d'utilisateur",
+      "font": "Police",
+      "fontSize": "Taille",
+      "language": "Langue",
+      "theme": "Thème",
+      "coloredNicks": "Pseudos colorés",
+      "showTimestamp": "Afficher l'horodatage",
+      "tsFormat": "Format d'horodatage",
+      "dateFormat": "Format de date",
+      "notifyMention": "Notifier si mentionné",
+      "notifyDM": "Notifier pour les MP",
+      "notifyJoin": "Notifier à l'arrivée",
+      "notifySound": "Notifications sonores",
+      "highlights": "Mots en surbrillance",
+      "logEnabled": "Activer les journaux",
+      "logDir": "Dossier des journaux",
+      "dccDir": "Dossier de téléchargement DCC",
+      "dccAutoAccept": "Accepter DCC automatiquement",
+      "save": "Enregistrer",
+      "cancel": "Annuler"
+    },
+    "about": {
+      "title": "À propos de bIRC",
+      "version": "Version",
+      "license": "Licence MIT",
+      "desc": "Un client IRC classique construit avec Electron + Vue 3"
+    }
+  },
+  "status": {
+    "connecting": "*** Connexion à {host} ({port}){ssl}…",
+    "connected": "*** Connecté. Connexion en cours…",
+    "disconnected": "*** Déconnecté de {host}",
+    "registered": "*** Connecté en tant que {nick}",
+    "error": "*** Erreur : {msg}",
+    "ssl": " via SSL"
+  },
+  "msg": {
+    "joined": "{nick} a rejoint {channel}",
+    "left": "{nick} a quitté {channel}",
+    "quit": "{nick} s'est déconnecté",
+    "kicked": "{nick} a été expulsé par {by}",
+    "nickChange": "{old} s'appelle maintenant {new}",
+    "topicChange": "{nick} a changé le sujet : {topic}",
+    "modeChange": "Mode {modes} par {nick}",
+    "nowTalking": "Vous parlez maintenant dans {channel}"
+  },
+  "ctx": {
+    "query": "Discussion (DM)",
+    "whois": "WHOIS",
+    "mention": "Mentionner",
+    "dcc": "Envoyer un fichier DCC",
+    "op": "Donner Op",
+    "deop": "Retirer Op",
+    "voice": "Donner Voice",
+    "kick": "Expulser",
+    "ban": "Expulser et bannir",
+    "focus": "Mettre au premier plan",
+    "restore": "Restaurer",
+    "leave": "Quitter / Part",
+    "connect": "Connecter",
+    "disconnect": "Déconnecter",
+    "joinChannel": "Rejoindre un salon…",
+    "editServer": "Paramètres",
+    "deleteServer": "Supprimer le serveur"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "name": "Русский",
+    "flag": "🇷🇺",
+    "dir": "ltr"
+  },
+  "menu": {
+    "file": "Файл",
+    "network": "Сеть",
+    "view": "Вид",
+    "window": "Окно",
+    "help": "Справка",
+    "connect": "Подключиться…",
+    "addServer": "Добавить сервер…",
+    "joinChannel": "Войти в канал…",
+    "dcc": "Передачи DCC…",
+    "prefs": "Настройки…",
+    "exit": "Выход",
+    "tile": "Мозаика",
+    "cascade": "Каскад",
+    "toolbar": "Панель инструментов",
+    "statusbar": "Строка состояния",
+    "servertree": "Дерево серверов",
+    "about": "О bIRC…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "Подключить",
+    "disconnect": "Отключить",
+    "addServer": "Добавить сервер",
+    "join": "Войти",
+    "part": "Выйти",
+    "dcc": "DCC",
+    "prefs": "Настройки",
+    "tile": "Мозаика",
+    "cascade": "Каскад"
+  },
+  "tree": {
+    "status": "{name} (статус)",
+    "channelList": "Список каналов"
+  },
+  "input": {
+    "placeholder": "Сообщение в {channel}…",
+    "placeholderStatus": "Введите команду… (/list, /join #канал)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "Добавить сервер",
+      "name": "Метка",
+      "host": "Хост",
+      "port": "Порт",
+      "ssl": "Использовать SSL/TLS",
+      "password": "Пароль сервера",
+      "nick": "Ник",
+      "nickAlt": "Альт. ник",
+      "realname": "Реальное имя",
+      "username": "Имя пользователя",
+      "autojoin": "Автовход в каналы",
+      "add": "Добавить",
+      "addConnect": "Добавить и подключить",
+      "cancel": "Отмена"
+    },
+    "join": {
+      "title": "Войти в канал",
+      "channel": "Канал",
+      "key": "Ключ (необязательно)",
+      "join": "Войти",
+      "cancel": "Отмена"
+    },
+    "prefs": {
+      "title": "Настройки",
+      "identity": "Личные данные",
+      "appearance": "Внешний вид",
+      "timestamps": "Временные метки",
+      "notifications": "Уведомления",
+      "logging": "Журналирование",
+      "dcc": "DCC",
+      "nick": "Ник",
+      "nickAlt": "Альт. ник",
+      "realname": "Реальное имя",
+      "username": "Имя пользователя",
+      "font": "Шрифт",
+      "fontSize": "Размер шрифта",
+      "language": "Язык",
+      "theme": "Тема",
+      "coloredNicks": "Цветные ники",
+      "showTimestamp": "Показывать метки времени",
+      "tsFormat": "Формат метки времени",
+      "dateFormat": "Формат даты",
+      "notifyMention": "Уведомлять об упоминаниях",
+      "notifyDM": "Уведомлять о личных сообщениях",
+      "notifyJoin": "Уведомлять о входе",
+      "notifySound": "Звуковые уведомления",
+      "highlights": "Слова для выделения",
+      "logEnabled": "Включить журнал",
+      "logDir": "Папка журналов",
+      "dccDir": "Папка загрузок DCC",
+      "dccAutoAccept": "Автоприём DCC",
+      "save": "Сохранить",
+      "cancel": "Отмена"
+    },
+    "about": {
+      "title": "О bIRC",
+      "version": "Версия",
+      "license": "Лицензия MIT",
+      "desc": "Классический IRC-клиент на Electron + Vue 3"
+    }
+  },
+  "status": {
+    "connecting": "*** Подключение к {host} ({port}){ssl}…",
+    "connected": "*** Подключено. Вход…",
+    "disconnected": "*** Отключено от {host}",
+    "registered": "*** Выполнен вход как {nick}",
+    "error": "*** Ошибка: {msg}",
+    "ssl": " через SSL"
+  },
+  "msg": {
+    "joined": "{nick} вошёл в {channel}",
+    "left": "{nick} вышел из {channel}",
+    "quit": "{nick} отключился",
+    "kicked": "{nick} выкинут {by}",
+    "nickChange": "{old} теперь {new}",
+    "topicChange": "{nick} изменил тему: {topic}",
+    "modeChange": "Режим {modes} от {nick}",
+    "nowTalking": "Вы разговариваете в {channel}"
+  },
+  "ctx": {
+    "query": "Запрос (DM)",
+    "whois": "WHOIS",
+    "mention": "Упомянуть",
+    "dcc": "Отправить файл DCC",
+    "op": "Дать Op",
+    "deop": "Снять Op",
+    "voice": "Дать Voice",
+    "kick": "Кикнуть",
+    "ban": "Кикнуть и забанить",
+    "focus": "На передний план",
+    "restore": "Восстановить",
+    "leave": "Покинуть / Part",
+    "connect": "Подключить",
+    "disconnect": "Отключить",
+    "joinChannel": "Войти в канал…",
+    "editServer": "Настройки",
+    "deleteServer": "Удалить сервер"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "name": "Svenska",
+    "flag": "🇸🇪",
+    "dir": "ltr"
+  },
+  "menu": {
+    "file": "Arkiv",
+    "network": "Nätverk",
+    "view": "Visa",
+    "window": "Fönster",
+    "help": "Hjälp",
+    "connect": "Anslut till server…",
+    "addServer": "Lägg till server…",
+    "joinChannel": "Gå med i kanal…",
+    "dcc": "DCC-överföringar…",
+    "prefs": "Inställningar…",
+    "exit": "Avsluta",
+    "tile": "Kakla",
+    "cascade": "Kaskad",
+    "toolbar": "Verktygsfält",
+    "statusbar": "Statusfält",
+    "servertree": "Serverträd",
+    "about": "Om bIRC…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "Anslut",
+    "disconnect": "Koppla från",
+    "addServer": "Lägg till server",
+    "join": "Gå med",
+    "part": "Lämna",
+    "dcc": "DCC",
+    "prefs": "Inställningar",
+    "tile": "Kakla",
+    "cascade": "Kaskad"
+  },
+  "tree": {
+    "status": "{name} (status)",
+    "channelList": "Kanallista"
+  },
+  "input": {
+    "placeholder": "Meddelande till {channel}…",
+    "placeholderStatus": "Ange ett kommando… (/list, /join #kanal)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "Lägg till server",
+      "name": "Etikett",
+      "host": "Värd",
+      "port": "Port",
+      "ssl": "Använd SSL/TLS",
+      "password": "Serverlösenord",
+      "nick": "Smeknamn",
+      "nickAlt": "Alt. smeknamn",
+      "realname": "Riktigt namn",
+      "username": "Användarnamn",
+      "autojoin": "Gå med automatiskt",
+      "add": "Lägg till",
+      "addConnect": "Lägg till och anslut",
+      "cancel": "Avbryt"
+    },
+    "join": {
+      "title": "Gå med i kanal",
+      "channel": "Kanal",
+      "key": "Nyckel (valfritt)",
+      "join": "Gå med",
+      "cancel": "Avbryt"
+    },
+    "prefs": {
+      "title": "Inställningar",
+      "identity": "Identitet",
+      "appearance": "Utseende",
+      "timestamps": "Tidsstämplar",
+      "notifications": "Aviseringar",
+      "logging": "Loggning",
+      "dcc": "DCC",
+      "nick": "Smeknamn",
+      "nickAlt": "Alt. smeknamn",
+      "realname": "Riktigt namn",
+      "username": "Användarnamn",
+      "font": "Teckensnitt",
+      "fontSize": "Teckenstorlek",
+      "language": "Språk",
+      "theme": "Tema",
+      "coloredNicks": "Färgade smeknamn",
+      "showTimestamp": "Visa tidsstämplar",
+      "tsFormat": "Tidsstämpelformat",
+      "dateFormat": "Datumformat",
+      "notifyMention": "Avisera vid omnämnande",
+      "notifyDM": "Avisera vid direktmeddelande",
+      "notifyJoin": "Avisera vid inträde",
+      "notifySound": "Ljudaviseringar",
+      "highlights": "Markerade ord",
+      "logEnabled": "Aktivera loggning",
+      "logDir": "Loggmapp",
+      "dccDir": "DCC-nedladdningsmapp",
+      "dccAutoAccept": "Acceptera DCC automatiskt",
+      "save": "Spara",
+      "cancel": "Avbryt"
+    },
+    "about": {
+      "title": "Om bIRC",
+      "version": "Version",
+      "license": "MIT-licens",
+      "desc": "En klassisk IRC-klient byggd med Electron + Vue 3"
+    }
+  },
+  "status": {
+    "connecting": "*** Ansluter till {host} ({port}){ssl}…",
+    "connected": "*** Ansluten. Loggar in…",
+    "disconnected": "*** Frånkopplad från {host}",
+    "registered": "*** Inloggad som {nick}",
+    "error": "*** Fel: {msg}",
+    "ssl": " via SSL"
+  },
+  "msg": {
+    "joined": "{nick} gick med i {channel}",
+    "left": "{nick} lämnade {channel}",
+    "quit": "{nick} kopplade från",
+    "kicked": "{nick} kastades ut av {by}",
+    "nickChange": "{old} heter nu {new}",
+    "topicChange": "{nick} ändrade ämnet: {topic}",
+    "modeChange": "Läge {modes} av {nick}",
+    "nowTalking": "Du pratar nu i {channel}"
+  },
+  "ctx": {
+    "query": "Fråga (DM)",
+    "whois": "WHOIS",
+    "mention": "Nämn",
+    "dcc": "Skicka fil via DCC",
+    "op": "Ge Op",
+    "deop": "Ta bort Op",
+    "voice": "Ge Voice",
+    "kick": "Sparka",
+    "ban": "Sparka och banna",
+    "focus": "Ta fram",
+    "restore": "Återställ",
+    "leave": "Lämna / Part",
+    "connect": "Anslut",
+    "disconnect": "Koppla från",
+    "joinChannel": "Gå med i kanal…",
+    "editServer": "Inställningar",
+    "deleteServer": "Ta bort server"
+  }
+}

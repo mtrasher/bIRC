@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "name": "اردو",
+    "flag": "🇵🇰",
+    "dir": "rtl"
+  },
+  "menu": {
+    "file": "فائل",
+    "network": "نیٹ ورک",
+    "view": "دیکھیں",
+    "window": "ونڈو",
+    "help": "مدد",
+    "connect": "سرور سے جڑیں…",
+    "addServer": "سرور شامل کریں…",
+    "joinChannel": "چینل میں شامل ہوں…",
+    "dcc": "DCC منتقلی…",
+    "prefs": "ترجیحات…",
+    "exit": "باہر",
+    "tile": "ونڈوز ٹائل",
+    "cascade": "ونڈوز کیسکیڈ",
+    "toolbar": "ٹول بار",
+    "statusbar": "اسٹیٹس بار",
+    "servertree": "سرور ٹری",
+    "about": "bIRC کے بارے میں…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "جڑیں",
+    "disconnect": "منقطع",
+    "addServer": "سرور شامل کریں",
+    "join": "شامل ہوں",
+    "part": "چھوڑیں",
+    "dcc": "DCC",
+    "prefs": "ترجیحات",
+    "tile": "ٹائل",
+    "cascade": "کیسکیڈ"
+  },
+  "tree": {
+    "status": "{name} (اسٹیٹس)",
+    "channelList": "چینل لسٹ"
+  },
+  "input": {
+    "placeholder": "{channel} کو پیغام…",
+    "placeholderStatus": "کمانڈ درج کریں… (/list, /join #چینل)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "سرور شامل کریں",
+      "name": "لیبل",
+      "host": "ہوسٹ",
+      "port": "پورٹ",
+      "ssl": "SSL/TLS استعمال کریں",
+      "password": "سرور پاس ورڈ",
+      "nick": "نام",
+      "nickAlt": "متبادل نام",
+      "realname": "اصل نام",
+      "username": "صارف نام",
+      "autojoin": "خودکار شامل ہوں",
+      "add": "شامل کریں",
+      "addConnect": "شامل کریں اور جڑیں",
+      "cancel": "منسوخ"
+    },
+    "join": {
+      "title": "چینل میں شامل ہوں",
+      "channel": "چینل",
+      "key": "چابی (اختیاری)",
+      "join": "شامل ہوں",
+      "cancel": "منسوخ"
+    },
+    "prefs": {
+      "title": "ترجیحات",
+      "identity": "شناخت",
+      "appearance": "ظاہری شکل",
+      "timestamps": "ٹائم اسٹیمپ",
+      "notifications": "اطلاعات",
+      "logging": "لاگنگ",
+      "dcc": "DCC",
+      "nick": "نام",
+      "nickAlt": "متبادل نام",
+      "realname": "اصل نام",
+      "username": "صارف نام",
+      "font": "فونٹ",
+      "fontSize": "فونٹ سائز",
+      "language": "زبان",
+      "theme": "تھیم",
+      "coloredNicks": "رنگین نام",
+      "showTimestamp": "ٹائم اسٹیمپ دکھائیں",
+      "tsFormat": "ٹائم اسٹیمپ فارمیٹ",
+      "dateFormat": "تاریخ فارمیٹ",
+      "notifyMention": "ذکر پر اطلاع",
+      "notifyDM": "پیغام پر اطلاع",
+      "notifyJoin": "شامل ہونے پر اطلاع",
+      "notifySound": "آواز کی اطلاع",
+      "highlights": "نمایاں الفاظ",
+      "logEnabled": "لاگنگ فعال",
+      "logDir": "لاگ ڈائریکٹری",
+      "dccDir": "DCC ڈاؤنلوڈ فولڈر",
+      "dccAutoAccept": "DCC خودکار قبول",
+      "save": "محفوظ",
+      "cancel": "منسوخ"
+    },
+    "about": {
+      "title": "bIRC کے بارے میں",
+      "version": "ورژن",
+      "license": "MIT لائسنس",
+      "desc": "Electron + Vue 3 سے بنا کلاسک IRC کلائنٹ"
+    }
+  },
+  "status": {
+    "connecting": "*** {host} ({port}){ssl} سے جڑ رہے ہیں…",
+    "connected": "*** جڑ گئے۔ لاگ ان ہو رہے ہیں…",
+    "disconnected": "*** {host} سے منقطع",
+    "registered": "*** {nick} کے طور پر لاگ ان",
+    "error": "*** خطا: {msg}",
+    "ssl": " SSL کے ذریعے"
+  },
+  "msg": {
+    "joined": "{nick} نے {channel} جوائن کیا",
+    "left": "{nick} نے {channel} چھوڑا",
+    "quit": "{nick} چلا گیا",
+    "kicked": "{nick} کو {by} نے نکالا",
+    "nickChange": "{old} اب {new} ہے",
+    "topicChange": "{nick} نے موضوع بدلا: {topic}",
+    "modeChange": "موڈ {modes} از {nick}",
+    "nowTalking": "{channel} میں بات ہو رہی ہے"
+  },
+  "ctx": {
+    "query": "کوئری (DM)",
+    "whois": "WHOIS",
+    "mention": "ذکر کریں",
+    "dcc": "DCC فائل بھیجیں",
+    "op": "Op دیں",
+    "deop": "Op ہٹائیں",
+    "voice": "Voice دیں",
+    "kick": "نکالیں",
+    "ban": "نکالیں اور بلاک کریں",
+    "focus": "آگے لائیں",
+    "restore": "بحال کریں",
+    "leave": "چھوڑیں",
+    "connect": "جڑیں",
+    "disconnect": "منقطع",
+    "joinChannel": "چینل میں شامل ہوں…",
+    "editServer": "ترتیبات",
+    "deleteServer": "سرور حذف کریں"
+  }
+}

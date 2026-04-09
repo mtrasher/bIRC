@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "name": "العربية",
+    "flag": "🇸🇦",
+    "dir": "rtl"
+  },
+  "menu": {
+    "file": "ملف",
+    "network": "الشبكة",
+    "view": "عرض",
+    "window": "نافذة",
+    "help": "مساعدة",
+    "connect": "اتصال بالخادم…",
+    "addServer": "إضافة خادم…",
+    "joinChannel": "الانضمام إلى قناة…",
+    "dcc": "نقل DCC…",
+    "prefs": "التفضيلات…",
+    "exit": "خروج",
+    "tile": "ترتيب النوافذ",
+    "cascade": "تدرج النوافذ",
+    "toolbar": "شريط الأدوات",
+    "statusbar": "شريط الحالة",
+    "servertree": "شجرة الخوادم",
+    "about": "حول bIRC…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "اتصال",
+    "disconnect": "قطع الاتصال",
+    "addServer": "إضافة خادم",
+    "join": "انضمام",
+    "part": "مغادرة",
+    "dcc": "DCC",
+    "prefs": "تفضيلات",
+    "tile": "ترتيب",
+    "cascade": "تدرج"
+  },
+  "tree": {
+    "status": "{name} (الحالة)",
+    "channelList": "قائمة القنوات"
+  },
+  "input": {
+    "placeholder": "رسالة إلى {channel}…",
+    "placeholderStatus": "أدخل أمرًا… (/list, /join #قناة)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "إضافة خادم",
+      "name": "التسمية",
+      "host": "المضيف",
+      "port": "المنفذ",
+      "ssl": "استخدام SSL/TLS",
+      "password": "كلمة مرور الخادم",
+      "nick": "اسم المستخدم",
+      "nickAlt": "اسم بديل",
+      "realname": "الاسم الحقيقي",
+      "username": "اسم المستخدم",
+      "autojoin": "الانضمام التلقائي للقنوات",
+      "add": "إضافة",
+      "addConnect": "إضافة واتصال",
+      "cancel": "إلغاء"
+    },
+    "join": {
+      "title": "الانضمام إلى قناة",
+      "channel": "القناة",
+      "key": "المفتاح (اختياري)",
+      "join": "انضمام",
+      "cancel": "إلغاء"
+    },
+    "prefs": {
+      "title": "التفضيلات",
+      "identity": "الهوية",
+      "appearance": "المظهر",
+      "timestamps": "الطوابع الزمنية",
+      "notifications": "الإشعارات",
+      "logging": "التسجيل",
+      "dcc": "DCC",
+      "nick": "اسم المستخدم",
+      "nickAlt": "اسم بديل",
+      "realname": "الاسم الحقيقي",
+      "username": "اسم المستخدم",
+      "font": "الخط",
+      "fontSize": "حجم الخط",
+      "language": "اللغة",
+      "theme": "المظهر",
+      "coloredNicks": "أسماء ملونة",
+      "showTimestamp": "إظهار الطوابع الزمنية",
+      "tsFormat": "تنسيق الطابع الزمني",
+      "dateFormat": "تنسيق التاريخ",
+      "notifyMention": "إشعار عند الإشارة",
+      "notifyDM": "إشعار عند الرسالة المباشرة",
+      "notifyJoin": "إشعار عند الانضمام",
+      "notifySound": "إشعارات صوتية",
+      "highlights": "كلمات التمييز",
+      "logEnabled": "تفعيل التسجيل",
+      "logDir": "مجلد السجل",
+      "dccDir": "مجلد تنزيل DCC",
+      "dccAutoAccept": "قبول DCC تلقائيًا",
+      "save": "حفظ",
+      "cancel": "إلغاء"
+    },
+    "about": {
+      "title": "حول bIRC",
+      "version": "الإصدار",
+      "license": "رخصة MIT",
+      "desc": "عميل IRC كلاسيكي مبني بـ Electron + Vue 3"
+    }
+  },
+  "status": {
+    "connecting": "*** جارٍ الاتصال بـ {host} ({port}){ssl}…",
+    "connected": "*** متصل. جارٍ تسجيل الدخول…",
+    "disconnected": "*** انقطع الاتصال بـ {host}",
+    "registered": "*** تم تسجيل الدخول باسم {nick}",
+    "error": "*** خطأ: {msg}",
+    "ssl": " عبر SSL"
+  },
+  "msg": {
+    "joined": "{nick} انضم إلى {channel}",
+    "left": "{nick} غادر {channel}",
+    "quit": "{nick} خرج",
+    "kicked": "{nick} تم طرده بواسطة {by}",
+    "nickChange": "{old} أصبح الآن {new}",
+    "topicChange": "{nick} غيّر الموضوع إلى: {topic}",
+    "modeChange": "تغيير الوضع {modes} بواسطة {nick}",
+    "nowTalking": "تتحدث الآن في {channel}"
+  },
+  "ctx": {
+    "query": "محادثة خاصة (DM)",
+    "whois": "WHOIS",
+    "mention": "إشارة",
+    "dcc": "إرسال ملف DCC",
+    "op": "منح Op",
+    "deop": "سحب Op",
+    "voice": "منح Voice",
+    "kick": "طرد",
+    "ban": "طرد وحظر",
+    "focus": "إلى الأمام",
+    "restore": "استعادة",
+    "leave": "مغادرة",
+    "connect": "اتصال",
+    "disconnect": "قطع الاتصال",
+    "joinChannel": "الانضمام إلى قناة…",
+    "editServer": "الإعدادات",
+    "deleteServer": "حذف الخادم"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "name": "Nederlands",
+    "flag": "🇳🇱",
+    "dir": "ltr"
+  },
+  "menu": {
+    "file": "Bestand",
+    "network": "Netwerk",
+    "view": "Weergave",
+    "window": "Venster",
+    "help": "Help",
+    "connect": "Verbinden met server…",
+    "addServer": "Server toevoegen…",
+    "joinChannel": "Kanaal betreden…",
+    "dcc": "DCC-overdrachten…",
+    "prefs": "Voorkeuren…",
+    "exit": "Afsluiten",
+    "tile": "Naast elkaar",
+    "cascade": "Overlappend",
+    "toolbar": "Werkbalk",
+    "statusbar": "Statusbalk",
+    "servertree": "Serverboom",
+    "about": "Over bIRC…",
+    "github": "GitHub"
+  },
+  "toolbar": {
+    "connect": "Verbinden",
+    "disconnect": "Verbreken",
+    "addServer": "Server toevoegen",
+    "join": "Betreden",
+    "part": "Verlaten",
+    "dcc": "DCC",
+    "prefs": "Voorkeuren",
+    "tile": "Naast elkaar",
+    "cascade": "Overlappend"
+  },
+  "tree": {
+    "status": "{name} (status)",
+    "channelList": "Kanaallijst"
+  },
+  "input": {
+    "placeholder": "Bericht naar {channel}…",
+    "placeholderStatus": "Voer een opdracht in… (/list, /join #kanaal)"
+  },
+  "dialog": {
+    "addServer": {
+      "title": "Server toevoegen",
+      "name": "Label",
+      "host": "Host",
+      "port": "Poort",
+      "ssl": "SSL/TLS gebruiken",
+      "password": "Serverwachtwoord",
+      "nick": "Bijnaam",
+      "nickAlt": "Alt. bijnaam",
+      "realname": "Echte naam",
+      "username": "Gebruikersnaam",
+      "autojoin": "Automatisch kanalen betreden",
+      "add": "Toevoegen",
+      "addConnect": "Toevoegen en verbinden",
+      "cancel": "Annuleren"
+    },
+    "join": {
+      "title": "Kanaal betreden",
+      "channel": "Kanaal",
+      "key": "Sleutel (optioneel)",
+      "join": "Betreden",
+      "cancel": "Annuleren"
+    },
+    "prefs": {
+      "title": "Voorkeuren",
+      "identity": "Identiteit",
+      "appearance": "Uiterlijk",
+      "timestamps": "Tijdstempels",
+      "notifications": "Meldingen",
+      "logging": "Logboek",
+      "dcc": "DCC",
+      "nick": "Bijnaam",
+      "nickAlt": "Alt. bijnaam",
+      "realname": "Echte naam",
+      "username": "Gebruikersnaam",
+      "font": "Lettertype",
+      "fontSize": "Lettergrootte",
+      "language": "Taal",
+      "theme": "Thema",
+      "coloredNicks": "Gekleurde bijnamen",
+      "showTimestamp": "Tijdstempels weergeven",
+      "tsFormat": "Tijdstempelformaat",
+      "dateFormat": "Datumformaat",
+      "notifyMention": "Melden bij vermelding",
+      "notifyDM": "Melden bij direct bericht",
+      "notifyJoin": "Melden bij toetreden",
+      "notifySound": "Geluidsmeldingen",
+      "highlights": "Gemarkeerde woorden",
+      "logEnabled": "Logboek inschakelen",
+      "logDir": "Logboekmap",
+      "dccDir": "DCC-downloadmap",
+      "dccAutoAccept": "DCC automatisch accepteren",
+      "save": "Opslaan",
+      "cancel": "Annuleren"
+    },
+    "about": {
+      "title": "Over bIRC",
+      "version": "Versie",
+      "license": "MIT-licentie",
+      "desc": "Een klassieke IRC-client gebouwd met Electron + Vue 3"
+    }
+  },
+  "status": {
+    "connecting": "*** Verbinden met {host} ({port}){ssl}…",
+    "connected": "*** Verbonden. Aanmelden…",
+    "disconnected": "*** Verbinding met {host} verbroken",
+    "registered": "*** Aangemeld als {nick}",
+    "error": "*** Fout: {msg}",
+    "ssl": " via SSL"
+  },
+  "msg": {
+    "joined": "{nick} is {channel} binnengetreden",
+    "left": "{nick} heeft {channel} verlaten",
+    "quit": "{nick} heeft de verbinding verbroken",
+    "kicked": "{nick} is verwijderd door {by}",
+    "nickChange": "{old} heet nu {new}",
+    "topicChange": "{nick} heeft het onderwerp gewijzigd: {topic}",
+    "modeChange": "Modus {modes} door {nick}",
+    "nowTalking": "U praat nu in {channel}"
+  },
+  "ctx": {
+    "query": "Query (DM)",
+    "whois": "WHOIS",
+    "mention": "Vermelden",
+    "dcc": "DCC bestand sturen",
+    "op": "Op geven",
+    "deop": "Op intrekken",
+    "voice": "Voice geven",
+    "kick": "Verwijderen",
+    "ban": "Verwijderen & bannen",
+    "focus": "Naar voren brengen",
+    "restore": "Herstellen",
+    "leave": "Verlaten / Part",
+    "connect": "Verbinden",
+    "disconnect": "Verbreken",
+    "joinChannel": "Kanaal betreden…",
+    "editServer": "Instellingen",
+    "deleteServer": "Server verwijderen"
+  }
+}
