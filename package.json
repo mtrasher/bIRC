@@ -1,0 +1,96 @@
+{
+  "name": "birc",
+  "private": true,
+  "version": "0.3.0b",
+  "description": "A classic IRC client built with Electron + Vue 3",
+  "type": "module",
+  "main": "electron/main.js",
+  "author": {
+    "name": "mtrash",
+    "email": "mtrash@birc.app"
+  },
+  "homepage": "https://github.com/mtrash/birc",
+  "scripts": {
+    "dev": "concurrently -k -n VITE,ELECTRON -c cyan,yellow \"vite\" \"wait-on -t 5000 http://127.0.0.1:5173 && cross-env NODE_ENV=development electron .\"",
+    "build": "vite build",
+    "dist:linux": "vite build && electron-builder --linux",
+    "dist:mac": "vite build && electron-builder --mac --arm64",
+    "dist:win": "vite build && electron-builder --win --x64",
+    "dist:all": "vite build && electron-builder --linux --win --x64 --mac --arm64"
+  },
+  "dependencies": {
+    "electron-store": "^8.2.0",
+    "mlkem": "^2.7.0",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.30",
+    "vue-i18n": "^11.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.5",
+    "concurrently": "^9.0.0",
+    "cross-env": "^7.0.3",
+    "electron": "^41.1.1",
+    "electron-builder": "^26.8.1",
+    "vite": "^8.0.1",
+    "wait-on": "^8.0.0"
+  },
+  "build": {
+    "appId": "com.birc.app",
+    "productName": "bIRC",
+    "copyright": "Copyright © 2026 mtrash",
+    "files": [
+      "dist/**/*",
+      "electron/**/*"
+    ],
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb",
+        "rpm"
+      ],
+      "category": "Network",
+      "description": "A classic IRC client",
+      "artifactName": "${productName}-${version}.${ext}"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "bIRC",
+      "artifactName": "${productName}-Setup-${version}.${ext}"
+    },
+    "portable": {
+      "artifactName": "${productName}-${version}-Portable.${ext}"
+    },
+    "mac": {
+      "identity": null,
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "arm64"
+          ]
+        }
+      ],
+      "category": "public.app-category.social-networking",
+      "artifactName": "${productName}-${version}-AppleSilicon.${ext}"
+    }
+  }
+}
